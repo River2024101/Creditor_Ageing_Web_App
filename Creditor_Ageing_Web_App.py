@@ -1,5 +1,5 @@
 # ============================================================
-# TUAREG MARKETING PVT LTD - CREDITOR AGEING WEB APPLICATION
+# TUAREG MARKETING PVT LIMITED - CREDITOR AGEING WEB APPLICATION
 # ============================================================
 # Developed for SAP Outstanding Creditors Ageing Report
 # Upload SAP OS Excel + Supplier Master Excel, then generate:
