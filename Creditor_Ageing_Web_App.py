@@ -37,7 +37,17 @@ page_icon="🇮🇳",
 layout="wide",
 initial_sidebar_state="expanded",
 )
+from PIL import Image, ImageTk
+# ===== Indian Flag =====
+flag_img = Image.open("india_flag.png")
+flag_img = flag_img.resize((70, 45))
 
+flag_photo = ImageTk.PhotoImage(flag_img)
+
+flag_label = Label(root, image=flag_photo, bd=0, bg="white")
+flag_label.place(relx=1.0, x=-20, y=10, anchor="ne")
+india_flag.png
+pip install pillow
 # ============================================================
 # PREMIUM CSS + BRANDING
 # ============================================================
