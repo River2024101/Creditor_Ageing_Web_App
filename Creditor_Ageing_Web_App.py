@@ -40,12 +40,6 @@ initial_sidebar_state="expanded",
 # =========================
 # ADD INDIAN FLAG AT TOP RIGHT
 # =========================
-
-
-
-root = Tk()
-root.geometry("1200x700")
-
 # -----------------------------------
 # Load Flag Image
 # -----------------------------------
