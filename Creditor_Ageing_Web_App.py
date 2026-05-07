@@ -32,7 +32,7 @@ getcontext().prec = 60
 # PAGE CONFIG
 # ============================================================
 st.set_page_config(
-page_title="Creditor Ageing | INALSA "🇮🇳",
+page_title="Creditor Ageing | INALSA 🇮🇳",
 page_icon= "🇮🇳",
 layout="wide",
 initial_sidebar_state="expanded",
