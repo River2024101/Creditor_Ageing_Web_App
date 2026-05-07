@@ -41,8 +41,7 @@ initial_sidebar_state="expanded",
 # ADD INDIAN FLAG AT TOP RIGHT
 # =========================
 
-from tkinter import *
-from PIL import Image, ImageTk
+
 
 root = Tk()
 root.geometry("1200x700")
