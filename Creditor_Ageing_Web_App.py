@@ -28,15 +28,41 @@ from openpyxl.utils import get_column_letter
 
 getcontext().prec = 60
 
-# ============================================================
-# PAGE CONFIG
-# ============================================================
-st.set_page_config(
-page_title="Creditor Ageing | INALSA 🇮🇳",
-page_icon="🇮🇳",
-layout="wide",
-initial_sidebar_state="expanded",
+# =========================
+# ADD INDIAN FLAG AT TOP RIGHT
+# =========================
+
+from tkinter import *
+from PIL import Image, ImageTk
+
+root = Tk()
+root.geometry("1200x700")
+
+# -----------------------------------
+# Load Flag Image
+# -----------------------------------
+flag_img = Image.open("india_flag.png")   # flag image file
+flag_img = flag_img.resize((70, 45))      # width, height
+flag_photo = ImageTk.PhotoImage(flag_img)
+
+# -----------------------------------
+# Top Right Flag
+# -----------------------------------
+flag_label = Label(
+    root,
+    image=flag_photo,
+    bd=0,
+    bg="white"        # match your UI background
 )
+
+flag_label.place(
+    relx=1.0,
+    y=15,
+    x=-20,
+    anchor="ne"
+)
+
+root.mainloop()
 
 # ============================================================
 # PREMIUM CSS + BRANDING
