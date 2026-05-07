@@ -215,7 +215,7 @@ st.markdown(
     }
 
     div[data-testid="stSidebar"] * {
-       color: white;
+        color: white;
     }
 
     div[data-testid="stSidebar"] .stFileUploader label,
@@ -394,7 +394,7 @@ def clean_amount(x):
     if pd.isna(num):
         return 0.0
     num = float(num)
-   if trailing_minus or bracket_negative:
+    if trailing_minus or bracket_negative:
         num = -abs(num)
     return num
 
@@ -796,7 +796,7 @@ if not os_file or not master_file:
             <div class="section-card">
                 <h3>📌 Professional Output</h3>
                 <p>Clear ageing buckets, top supplier exposure, overdue amount, operative/non-operative exposure and downloadable Excel reports.</p>
-               <p>Upload both files from the left sidebar to enable the Start button.</p>
+                <p>Upload both files from the left sidebar to enable the Start button.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -919,7 +919,7 @@ try:
         st.markdown("#### Clean transaction data")
         st.dataframe(filtered_df, width="stretch", height=620)
 
-   with tabs[6]:
+    with tabs[6]:
         st.markdown("#### Download final creditor ageing report")
         st.download_button(
             label="⬇️ Download Complete Excel Report",
@@ -940,5 +940,3 @@ try:
 except Exception as e:
     st.error("Processing failed. Please check the uploaded files and format.")
     st.exception(e)
-
-
