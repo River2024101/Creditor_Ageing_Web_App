@@ -47,7 +47,6 @@ flag_photo = ImageTk.PhotoImage(flag_img)
 flag_label = Label(root, image=flag_photo, bd=0, bg="white")
 flag_label.place(relx=1.0, x=-20, y=10, anchor="ne")
 india_flag.png
-pip install pillow
 # ============================================================
 # PREMIUM CSS + BRANDING
 # ============================================================
