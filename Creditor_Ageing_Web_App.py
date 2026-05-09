@@ -935,40 +935,7 @@ try:
             mime="text/csv",
             width="stretch",
         )
-import streamlit as st
 
-# =========================================
-# PAGE CONFIG
-# =========================================
-
-st.set_page_config(
-    page_title="SAP OS Ageing Processor",
-    layout="wide"
-)
-
-# =========================================
-# INDIAN FLAG HEADER
-# =========================================
-
-col1, col2 = st.columns([1, 12])
-
-with col1:
-    st.image(
-        "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-        width=80
-    )
-
-with col2:
-    st.markdown(
-        """
-        <h1 style='margin-top:10px; color:#FF9933;'>
-        SAP OS AGEING PROCESSOR
-        </h1>
-        """,
-        unsafe_allow_html=True
-    )
-
-st.markdown("---")
 except Exception as e:
     st.error("Processing failed. Please check the uploaded files and format.")
     st.exception(e)
