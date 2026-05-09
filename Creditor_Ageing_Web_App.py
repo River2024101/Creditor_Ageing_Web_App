@@ -296,7 +296,7 @@ st.markdown(
         <div class="brand-left">
             <div class="eyebrow">🏠 {BRAND_NAME}</div>
             <div class="company-title">{COMPANY_NAME}</div>
-            <div class="sub-title">Professional SAP Creditor Ageing Dashboard • Supplier Type • Group • Operative / Non-Operative • Amount Analysis</div>
+            <div class="sub-title">Professional SAP Creditor Ageing Dashboard</div>
             <a class="website-chip" href="{COMPANY_WEBSITE}" target="_blank">🌐 {COMPANY_WEBSITE}</a>
         </div>
         <div class="logo-wrap">
